@@ -9,40 +9,67 @@
 
   <body>
     <center>
-      <div class="info"><p>All:12</p><p>Need:7</p><p class="success">success:0/7</p><p class="error">Error:0/7</p></div>
+      <div class="info">
+        <p>All:12</p>
+        <p>Need:7</p>
+        <p class="success">success:0/7</p>
+        <p class="error">Error:0/7</p>
+      </div>
       <form name="signup">
         <div class="inp">
           <div class="Need">
             <h5 class="title">Name</h5>
-            <input type="text" name="name" class="necessarily" />
+            <div class="flex">
+              <input type="text" name="name" class="necessarily" /><img
+                src="img/381599_error_icon.png"
+                alt=""
+              />
+            </div>
             <p>Need to fill</p>
           </div>
           <div class="Need">
             <h5 class="title">Age</h5>
-            <input type="number" name="age" class="necessarily" /> <br />
+            <div class="flex">
+              <input type="number" name="age" class="necessarily" />
+              <img src="img/381599_error_icon.png" alt="" /><br />
+            </div>
             <p>Need to fill</p>
           </div>
         </div>
         <div class="inp">
           <div>
             <h5>Surname</h5>
-            <input type="text" name="surname" class="additionally" />
+            <input type="text" name="text" class="additionally" />
           </div>
           <div class="Need">
             <h5 class="title">About You</h5>
-            <input type="text" name="text" class="necessarily" /> <br />
+            <div class="flex">
+              <input type="text" name="text" class="necessarily" />
+              <img src="img/381599_error_icon.png" alt="" /><br />
+            </div>
             <p>Need to fill</p>
           </div>
         </div>
         <div class="inp">
           <div class="Need">
             <h5 class="title">Email adress</h5>
-            <input type="email" name="email" class="necessarily" />
+            <div class="flex">
+              <input type="email" name="email" class="necessarily" /><img
+                src="img/381599_error_icon.png"
+                alt=""
+              />
+            </div>
             <p>Need to fill</p>
           </div>
           <div class="Need">
             <h5 class="title">What is JavaScript</h5>
-            <input type="text" name="text" class="necessarily" /> <br />
+            <div class="flex">
+              <input type="text" name="text" class="necessarily" /><img
+                src="img/381599_error_icon.png"
+                alt=""
+              />
+              <br />
+            </div>
             <p>Need to fill</p>
           </div>
         </div>
@@ -53,7 +80,10 @@
           </div>
           <div class="Need">
             <h5 class="title">What is HTML</h5>
-            <input type="text" class="necessarily" name="text" /> <br />
+            <div class="flex">
+              <input type="text" class="necessarily" name="text" />
+              <img src="img/381599_error_icon.png" alt="" /><br />
+            </div>
             <p>Need to fill</p>
           </div>
         </div>
@@ -64,7 +94,13 @@
           </div>
           <div class="Need">
             <h5 class="title">What is CSS</h5>
-            <input type="text" name="text" class="necessarily" /> <br />
+            <div class="flex">
+              <input type="text" name="text" class="necessarily" /><img
+                src="img/381599_error_icon.png"
+                alt=""
+              />
+              <br />
+            </div>
             <p>Need to fill</p>
           </div>
         </div>
@@ -74,7 +110,9 @@
             <input type="text" name="text" class="additionally" />
           </div>
           <div>
-            <h5>Your favourite car</h5><input type="text" name="text" class="additionally" /><br /></div>
+            <h5>Your favourite car</h5>
+            <input type="text" name="text" class="additionally" /><br />
+          </div>
         </div>
 
         <button>send</button>

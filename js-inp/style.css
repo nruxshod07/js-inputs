@@ -1,57 +1,69 @@
 button {
-    margin: 40px auto;
-    max-width: 200px;
-    width: 100%;
-    padding: 15px 30px;
-    background-color: blue;
-    border-radius: 5px;
-    border: 1px solid white;
-    cursor: pointer;
-    color: white;
-  }
-  button:active {
-    background-color: black;
-  }
-  .info {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  input {
-    max-width: 250px;
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  .title {
-    color: blue;
-  }
-  .true {
-    border-color: blue;
-  }
-  .false {
-    border-color: red;
-  }
-  .necessarily {
-    border: 2px solid blue;
-  }
-  .additionally {
-    border: 2px solid rgb(138, 136, 136);
-  }
-  .inp {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-  }
-  .inp div p {
-    display: flex;
-    font-size: 13px;
-    color: rgb(116, 113, 113);
-  }
-  .inp div {
-    margin-bottom: 20px;
-  }
-  h5 {
-    display: flex;
-    margin: 10px;
-  }
+  margin: 40px auto;
+  max-width: 200px;
+  width: 100%;
+  padding: 15px 30px;
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+}
+button:active {
+  background-color: black;
+}
+.info {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+input {
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+.title {
+  color: blue;
+}
+.true {
+  border-color: blue;
+}
+.false {
+  border-color: red;
+}
+.necessarily {
+  border: 2px solid blue;
+}
+.additionally {
+  border: 2px solid rgb(138, 136, 136);
+  margin-right: 44px;
+}
+.inp {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.inp div p {
+  display: flex;
+  font-size: 13px;
+  color: rgb(116, 113, 113);
+}
+.inp div {
+  margin-bottom: 20px;
+  width: 250px;
+}
+h5 {
+  display: flex;
+  margin: 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+img {
+  width: 15px;
+  height: 15px;
+  display: none;
+}
