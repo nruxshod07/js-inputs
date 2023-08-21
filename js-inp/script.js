@@ -47,6 +47,7 @@ form.onsubmit = (event) => {
       if (inp.style.borderColor === "red") {
         error = true;
       } else {
+        img.style.display = "none";
         inp.style.borderColor = "blue";
         success++;
       }
